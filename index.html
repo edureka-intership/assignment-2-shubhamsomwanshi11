@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-danger header container-xxl">
+        <div class="btns d-flex  justify-content-end" style="padding-top: 14px; padding-right:3px;">
+            <button type="button" class="btn btn-link text-light text-decoration-none float-end">Login</button>
+            <button type="button" class="btn btn-outline-light float-end">Create an account</button>
+        </div>
+        <div class="d-flex justify-content-center" style="margin-top: 4%;">
+            <h1 class="edureka rounded-circle fw-bold text-danger bg-white text-center">e!</h1>
+        </div>
+        <p class="text-center text-light" style="font: normal normal 600 28px/36px Poppins; margin-top:23px;">Find the
+            best restaurants, cafés, and bars</p>
+
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="height: 54px; width:250px; margin-bottom:22px; margin-top: 5px;">
+                    Please type a location
+                </button>
+                <ul class="dropdown-menu dropdown-menu-light">
+                    <li style="height: 30px; width:250px;""><a class=" dropdown-item" href="#">Sarjapur Road</a></li>
+                    <li><a class="dropdown-item" href="#">Bengaluru HSR Layout</a></li>
+                    <li><a class="dropdown-item" href="#">Bengaluru Kormangala</a></li>
+                    <li><a class="dropdown-item" href="#">Bengaluru Jay Nagar</a></li>
+                </ul>
+            </div>
+
+
+            <input class="search text-center text-secondary ms-3  border-0"
+                style="width: 280px; height: 52px; border-radius: 0%;" type="text" placeholder="Search for restaurants"
+                id="restaurants" list="searchlocation">
+            <i class="fa-solid fa-magnifying-glass text-secondary fs-5 position-relative"
+                style="top: 3px; left: -321px;"></i>
+        </div>
+
+
+    </div>
+    <div class="container-xxl">
+        <div class="restaurants ">
+            <p class="title fs-1 position-relative fw-bold mt-3   ms-3 font: normal normal bold 30px/46px 'Poppins'"
+                style="color: #192F60;">
+                Quick Searches
+            </p>
+            <h3 class="restaurent fs-4 position-relative mt-2   ms-3 font:normal normal normal 18px/27px 'Poppins'"
+                style="color:#8C96AB;">
+                Discover restaurants by type of meal
+            </h3>
+        </div>
+
+        <!-- cards-->
+        <div class="container-xxl d-flex flex-wrap justify-content-between" style="border-radius: 0%;">
+            <!--card 1-->
+            <div class="card-1 d-flex flex-wrap-wrap mt-5  shadow bg-body " style="height: 160px; width:360px;">
+                <div class="card-image-1" style="height: 160px; width:360px;">
+                    <img src="./Images/Breakfast.png" height="160px" width="160px" alt="Breakfast image">
+                    <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                        Breakfast
+                    </h4>
+                    <p class="card-text  font: normal normal normal 14px/21px Poppins;"
+                        style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                        Start your day with exclusive breakfast options
+                    </p>
+                </div>
+            </div>
+
+            <!--card 2-->
+            <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body " style="height: 160px; width:360px;">
+                <div class="card-image-1" style="height: 160px; width:360px;">
+                    <img src="./Images/Lunch.png" height="160px" width="160px" alt="Lunch image">
+                    <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                        Lunch
+                    </h4>
+                    <p class="card-text  font: normal normal normal 14px/21px Poppins;"
+                        style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                        Start your day with exclusive breakfast options
+                    </p>
+                </div>
+            </div>
+
+            <!--card 3-->
+            <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body " style="height: 160px; width:360px;">
+                <div class="card-image-1" style="height: 160px; width:360px;">
+                    <img src="./Images/Snacks.png" height="160px" width="160px" alt="Snacks image">
+                    <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                        Snacks
+                    </h4>
+                    <p class="card-text  font: normal normal normal 14px/21px Poppins;"
+                        style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                        Start your day with exclusive breakfast options
+                    </p>
+                </div>
+            </div>
+
+            <!--card 4-->
+            <div class="card-1 d-flex flex-wrap-wrap mt-5  shadow bg-body " style="height: 160px; width:360px;">
+                <div class="card-image-1" style="height: 160px; width:360px;">
+                    <img src="./Images/Dinner.png" height="160px" width="160px" alt="Dinner image">
+                    <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                        Dinner
+                    </h4>
+                    <p class="card-text  font: normal normal normal 14px/21px Poppins;"
+                        style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                        Start your day with exclusive breakfast options
+                    </p>
+                </div>
+            </div>
+
+            <!--card 5-->
+            <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body " style="height: 160px; width:360px;">
+                <div class="card-image-1" style="height: 160px; width:360px;">
+                    <img src="./Images/Drinks.png" height="160px" width="160px" alt="Drinks image">
+                    <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                        Drinks
+                    </h4>
+                    <p class="card-text  font: normal normal normal 14px/21px Poppins;"
+                        style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                        Start your day with exclusive breakfast options
+                    </p>
+                </div>
+            </div>
+            <!--card 6-->
+            <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body " style="height: 160px; width:360px;">
+                <div class="card-image-1" style="height: 160px; width:360px;">
+                    <img src="./Images/Nightlife.png" height="160px" width="160px" alt="Nightlife image">
+                    <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                        Nightlife
+                    </h4>
+                    <p class="card-text  font: normal normal normal 14px/21px Poppins;"
+                        style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                        Start your day with exclusive breakfast options
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
